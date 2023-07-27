@@ -1,0 +1,1 @@
+experiment evalu heat transfer transpir cool turbul boundari layer m=3 .2 . .a bartl , e.r . leadon , b.h . .b j. ae . sc . 27 , 1960 . .w experiment evalu heat transfer transpir cool turbul boundari layer m=3 .2. found prescrib veloc field , electr field conduct , current calcul integr . work relat analyt investig boundari layer physic reason acceler .

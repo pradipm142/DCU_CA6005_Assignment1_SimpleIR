@@ -1,0 +1,1 @@
+model aeroelast investig . .a templeton , h . .b arc cp.255 , 1955 . .w model aeroelast investig . addendum provid short note two aspect omit origin paper , viz . gravit effect structur damp . short list refer earlier paper deal subject also ad .

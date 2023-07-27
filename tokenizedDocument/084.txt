@@ -1,0 +1,1 @@
+three-point boundary-valu problem blasiu equat integr numer , use suitabl transform , without iter boundari condit .
