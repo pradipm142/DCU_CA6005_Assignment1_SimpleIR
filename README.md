@@ -87,7 +87,21 @@ The ranked documents for each query are stored in separate output files within t
 
 ## Evaluation
 
-The evaluation of retrieval models can be performed using trec_eval, which compares the ranked documents to the ground truth relevance judgments. The evaluation results are written to separate files in the `/output` directory.
+The evaluation of retrieval models can be performed using pytrec_eval, which compares the ranked documents to the ground truth relevance judgments. The evaluation Metrics are used are Mean Average Precision (MAP), Precision at 5 (P@5), and Normalized Discounted Cumulative Gain (NDCG). The evaluation results are written to separate files in the `/output` directory and printed in the command line output.
+
+## CONCLUSIONS
+
+In conclusion, this project has achieved its primary objective of developing a simple Information Retrieval (IR) system using python, which is a nice contribution towards helping in addressing the challenges of IR systems posed by the exponential growth of digital information. In this project, I explored and evaluated three prominent retrieval models and throughout this exploration, I learned a lot and gained valuable insights of the strengths and weaknesses of each model, contributing to my understanding of their effectiveness in document ranking and retrieval tasks.
+However, while the project achieved its objectives, there are several areas for possible improvements both in the project and code implementations which can be further explored:
+•	Scalability: The current implementation of the IR system is suitable for small to medium-sized document collections. For handling larger datasets, optimizations in data structures and indexing algorithms may be required to enhance the system's scalability.
+•	Query Processing: The project employed basic tokenization and pre-processing techniques for query processing. Advanced natural language processing (NLP) techniques, such as part-of-speech tagging and lemmatization, could be incorporated to further improve the system's understanding of user queries and enhance retrieval accuracy.
+•	Advanced Retrieval Models: While VSM, BM25, and BM25 LM are widely used and effective, the project could be extended to explore more advanced retrieval models, such as neural network-based approaches like BERT or transformer models.
+•	User Interface: The current implementation provides results in a command-line interface. Adding a user-friendly graphical user interface (GUI) could enhance the overall user experience and make the system more accessible.
+•	Relevance Feedback: Implementing relevance feedback mechanisms, such as Rocchio's algorithm, could allow users to provide feedback on retrieved results. This feedback can then be used to re-rank the documents and provide more personalized and relevant results.
+•	Performance Optimization: Fine-tuning the code implementation for performance optimization can lead to faster document retrieval and ranking. Techniques like caching and parallel processing can be explored to reduce response times and improve system efficiency.
+•	Error Handling and Validation: Strengthening error handling and input validation in the code can make the system more robust and less prone to unexpected crashes or incorrect results.
+•	Cross-Validation: Conducting cross-validation on different datasets can further validate the performance of the retrieval models and provide a more comprehensive evaluation.
+
 
 ## License
 
