@@ -13,6 +13,7 @@ This repository contains the code for a simple Information Retrieval (IR) system
 - [Retrieval Models](#retrieval-models)
 - [Output](#output)
 - [Evaluation](#evaluation)
+- [Conclusions](#Conclusions)
 - [License](#license)
 
 ## Overview
