@@ -1,5 +1,5 @@
-# Simple Information Retrieval (IR) System with VSM, BM25, and BM25 Language Model
-## An Exploration of Information Retrieval Techniques for Document Ranking and Evaluation 
+# DCU - Mechanics of Search (CA6005) - Assignment 1
+## Simple Information Retrieval (IR) System with VSM, BM25, and BM25 Language Model 
 
 
 This repository contains the code for a simple Information Retrieval (IR) system that retrieves relevant documents from a collection based on user queries using different retrieval models. The system is implemented in Python and includes functionalities for data loading, preprocessing, building the inverted index, ranking documents, and evaluating retrieval models. This project was done as part of my Mechanics of Search course module assignment under Dublin City University (DCU).
