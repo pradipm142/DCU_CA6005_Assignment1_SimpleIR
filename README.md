@@ -45,7 +45,7 @@ pip install pytrec_eval
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/pradipm142/DCU_IR.git
+git clone https://github.com/pradipm142/DCU_CA6005_Assignment1_SimpleIR
 cd IR-System
 ```
 
