@@ -14,7 +14,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 # Set the file paths
-data_path = '/DCU_IR'
+data_path = '/cranfieldCollection/'
 collection_file = os.path.join(data_path, 'cran.all.1400')
 queries_file = os.path.join(data_path, 'cran.qry')
 relevance_file = os.path.join(data_path, 'cranqrel')
